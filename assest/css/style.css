@@ -22,7 +22,7 @@ body {
     position: fixed;
     width: 200px;
     top:40%;
-    left: -16%;
+    left: -12%;
     z-index: 99;
     align-items: flex-start;
     transition : 1s
@@ -310,6 +310,9 @@ header .social-icon .fa-google-plus-g:hover {
     transform: rotate(360deg);
 }
 @media (max-width: 991px) {
+    .theam{
+        left :-19%
+    }
     header {
         background-position: center;
     }
@@ -318,6 +321,9 @@ header .social-icon .fa-google-plus-g:hover {
     }
 }
 @media (max-width: 575px) {
+    .theam{
+        left :-40%
+    }
     header .text {
         width: 100%;
     }

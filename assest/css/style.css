@@ -171,6 +171,15 @@ nav .navbar-nav .nav-item:last-child .nav-link:hover span {
 nav .navbar-nav .nav-item:last-child {
     display: inline-block;
 }
+
+@media (max-width: 991px) {
+ nav button {
+    margin-inline: 0;
+ }
+
+}
+
+/* header section css */
 header {
     height: 100vh;
     background-image: url(../img/introbg5.png);
@@ -305,7 +314,7 @@ header .social-icon .fa-google-plus-g:hover {
     transform: rotate(360deg);
 }
 @media (max-width: 991px) {
-   
+    
     header {
         background-position: center;
     }

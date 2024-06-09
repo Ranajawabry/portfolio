@@ -1,14 +1,13 @@
-/*
+/* 
 @import url(https://fonts.googleapis.com/css2?family=Cookie&family=Fira + Sans&family=Josefin + Sans:wght@700&family=Roboto&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Cookie&family=Fira + Sans&family=Josefin + Sans:wght@700&family=Raleway&family=Roboto&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Cookie&family=Dosis&family=Fira + Sans&family=Josefin + Sans:wght@700&family=Raleway&family=Roboto&display=swap);
-*/
+@import url(https://fonts.googleapis.com/css2?family=Cookie&family=Dosis&family=Fira + Sans&family=Josefin + Sans:wght@700&family=Raleway&family=Roboto&display=swap); */
+
 :root{
     --main-col: #ff7a57
 }
 body {
     font-family: Roboto, sans-serif;
-    height: 9000px;
 }
 * {
     margin: 0;
@@ -21,17 +20,13 @@ body {
     height: 100px;
     position: fixed;
     width: 200px;
-    top:40%;
-    left: -12%;
+    top:40%;  
     z-index: 99;
     align-items: flex-start;
-    transition : 1s
+   
     
 }
 
-.theam:hover {
-    left: 0 ;
-}
 .theam .options{
     border : 1px solid rgb(184, 183, 183);
     background-color: white;
@@ -310,9 +305,7 @@ header .social-icon .fa-google-plus-g:hover {
     transform: rotate(360deg);
 }
 @media (max-width: 991px) {
-    .theam{
-        left :-19%
-    }
+   
     header {
         background-position: center;
     }
@@ -321,9 +314,7 @@ header .social-icon .fa-google-plus-g:hover {
     }
 }
 @media (max-width: 575px) {
-    .theam{
-        left :-40%
-    }
+    
     header .text {
         width: 100%;
     }
